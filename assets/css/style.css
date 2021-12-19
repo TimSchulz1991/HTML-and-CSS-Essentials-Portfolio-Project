@@ -32,7 +32,9 @@ header {
 
 .logo {
     text-align: center;
+    padding-top: 1.5rem;
 }
+
 
 .logo-image {
     width: 70%;
@@ -42,8 +44,17 @@ header {
     list-style: none;
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
+    font-size: 110%;
+    letter-spacing: 2.5px;;
 }
 
 .nav-item {
-    margin: 0 1rem;
+    margin: 0 .5rem;
+    padding: 0.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--pink);
 }
