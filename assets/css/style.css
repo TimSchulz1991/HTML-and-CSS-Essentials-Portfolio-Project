@@ -22,3 +22,9 @@ h2,
 h3 {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+/* Header */
+
+.logo-image {
+    width: 70%;
+}
