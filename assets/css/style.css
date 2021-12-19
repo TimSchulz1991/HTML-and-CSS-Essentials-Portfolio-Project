@@ -1,5 +1,18 @@
+/* General Settings and Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+h1, 
+h2,
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
 }
