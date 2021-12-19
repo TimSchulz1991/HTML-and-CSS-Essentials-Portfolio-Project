@@ -25,6 +25,25 @@ h3 {
 
 /* Header */
 
+header {
+    background-color: var(--violet);
+    height: 25vh;
+}
+
+.logo {
+    text-align: center;
+}
+
 .logo-image {
     width: 70%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 1rem;
 }
