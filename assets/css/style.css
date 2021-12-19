@@ -1,6 +1,12 @@
 /* General Settings and Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
 
+:root {
+    --violet: #3E2D41;
+    --pink: #EA6D7F;
+    --rose: #F4C7C5;
+}
+
 * {
     margin: 0;
     padding: 0;
