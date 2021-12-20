@@ -15,6 +15,7 @@
 
 body {
     font-family: 'Cabin', sans-serif;
+    color: var(--violet);
 }
 
 h1, 
@@ -125,5 +126,41 @@ hr {
 }
 
 .hero-buttons img {
+    width: 100%;
+}
+
+/* Feature Section */
+
+#features {
+    background-color: var(--rose);
+}
+
+#features h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 250%;
+    font-weight: 400;;
+    padding: 40px 0 10px;
+}
+
+.features-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feature-item {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.feature-item h3 {
+    font-size: 150%;;
+}
+
+.feature-item img {
     width: 100%;
 }
