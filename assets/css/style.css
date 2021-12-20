@@ -62,16 +62,19 @@ header {
 /* Hero Section */
 
 #hero {
-    height: 1200px;
+    height: 650px;
     width: 100%;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-image {
     height: 100%;
     width: 100%;
-    background: url(../images/hero-3-1.png) no-repeat center center;
-    position: relative;
+    background: url(../images/hero-3-1.png) no-repeat center top;
+    /* position: relative; */
 }
 
 .color-overlay {
@@ -79,7 +82,7 @@ header {
     width: 100%;
     background: var(--pink);
     opacity: 0.7;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .hero-text {
@@ -89,7 +92,7 @@ header {
     text-align: center;
     font-size: 120%;
     letter-spacing: 2.5px;;
-    padding: 30px 10px 30px 20px;
+    padding: 30px 20px 30px 20px;
     background: rgb(62, 45, 65, .8);
     color: var(--rose);
 }
@@ -110,6 +113,17 @@ hr {
     padding-bottom: 20px;
 }
 
-.hero-buttons img {
+.hero-buttons {
     width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-buttons img {
+    width: 100%;
 }
