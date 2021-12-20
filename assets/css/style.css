@@ -96,6 +96,8 @@ header {
     padding: 30px 20px 30px 20px;
     background: rgb(62, 45, 65, .8);
     color: var(--rose);
+    border: 3px solid var(--violet);
+    border-radius: 25px;;
 }
 
 .hero-text h1 {
@@ -107,7 +109,7 @@ header {
     color: var(--pink);
 }
 
-hr {
+#hero hr {
     border-top: 1px solid var(--rose);
     width: 80%;
     margin: 0 auto;
@@ -167,7 +169,7 @@ hr {
 }
 
 .feature-item p {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     font-size: 110%;
 }
