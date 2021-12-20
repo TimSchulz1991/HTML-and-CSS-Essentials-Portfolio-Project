@@ -61,3 +61,13 @@ header {
 
 /* Hero Section */
 
+#hero {
+    height: 1200px;
+    width: 100%;
+}
+
+.hero-image {
+    height: 1200px;
+    width: 100%;
+    background: url(../images/hero-3-1.png) no-repeat center center;
+}
