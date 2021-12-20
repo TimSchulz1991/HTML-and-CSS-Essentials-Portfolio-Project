@@ -67,7 +67,16 @@ header {
 }
 
 .hero-image {
-    height: 1200px;
+    height: 100%;
     width: 100%;
     background: url(../images/hero-3-1.png) no-repeat center center;
+    position: relative;
+}
+
+.color-overlay {
+    height: 100%;
+    width: 100%;
+    background: var(--pink);
+    opacity: 0.7;
+    position: absolute;
 }
