@@ -217,3 +217,46 @@ header {
     margin: 0 auto;
     font-size: 110%;
 }
+
+/* Team Section */
+
+#team {
+    background-color: var(--rose);
+}
+
+#team h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 250%;
+    font-weight: 400;;
+    padding: 40px 0 40px;
+}
+
+.team-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-member {
+    padding-bottom: 40px;
+}
+
+.team-member h3 {
+    padding-bottom: 20px;
+    font-size: 150%;
+}
+
+.team-member img {
+    width: 60%;
+    border-radius: 10%;
+    margin: 0 auto 10px;
+}
+
+#team hr {
+    border-top: 2px solid var(--pink);
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
