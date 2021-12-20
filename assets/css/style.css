@@ -188,6 +188,14 @@ header {
     margin: 0 auto;
     text-align: center;
     padding: 50px 0;
+    position: relative;
+}
+
+.fa-quote-right {
+    position: absolute;
+    font-size: 500%;
+    top: 30px;
+    left: 65%;
 }
 
 .testimonial-container img {
