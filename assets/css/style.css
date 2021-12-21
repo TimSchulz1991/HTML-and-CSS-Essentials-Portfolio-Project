@@ -260,3 +260,23 @@ header {
     margin: 0 auto;
     padding-bottom: 20px;
 }
+
+/* Form */
+
+#form {
+    height: 500px;
+    background: var(--pink);
+}
+
+.signup-form {
+    width: 80%;
+    height: 350px;
+    background: rgb(62, 45, 65, .8);
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.signup-form h2,
+.signup-form label {
+    color: var(--rose);
+}
