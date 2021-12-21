@@ -302,6 +302,15 @@ header {
     border-radius: 5px;
 }
 
-.text-input textarea {
-    line-height: 100px;
+fieldset {
+    margin-bottom: 20px;
+}
+
+textarea {
+    background: transparent;
+    width: 99%;
+    margin: 5px 0 20px 0;
+    border: 1px solid var(--rose);
+    border-radius: 5px;
+    
 }
