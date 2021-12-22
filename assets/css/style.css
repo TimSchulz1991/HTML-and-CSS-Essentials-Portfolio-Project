@@ -323,6 +323,7 @@ textarea {
 .submit-input {
     width: 40%;
     height: 2.5rem;
+    border: 1px solid var(--rose);
     border-radius: 5px;
     background: var(--pink);
     color: var(--violet);
