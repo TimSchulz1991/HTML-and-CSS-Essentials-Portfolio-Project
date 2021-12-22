@@ -286,11 +286,18 @@ header {
     margin: 0 auto;
 }
 
+legend {
+    padding-bottom: 10px;
+}
 
-.signup-form label,
-.signup-form legend {
+label,
+legend {
     color: var(--pink);
     font-size: 135%;
+}
+
+.radio-label {
+    color: var(--rose);
 }
 
 .text-input {
@@ -304,6 +311,10 @@ header {
 
 fieldset {
     margin-bottom: 20px;
+}
+
+.radio-input {
+    margin: 0 20px 0 5px;
 }
 
 textarea {
