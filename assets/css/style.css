@@ -282,12 +282,7 @@ header {
 
 .signup-form {
     width: 80%;
-    height: 350px;
     margin: 0 auto;
-}
-
-legend {
-    padding-bottom: 10px;
 }
 
 label,
@@ -314,7 +309,7 @@ fieldset {
 }
 
 .radio-input {
-    margin: 0 20px 0 5px;
+    margin: 20px 20px 0 5px;
 }
 
 textarea {
@@ -323,5 +318,13 @@ textarea {
     margin: 5px 0 20px 0;
     border: 1px solid var(--rose);
     border-radius: 5px;
-    
+}
+
+.submit-input {
+    width: 40%;
+    height: 2.5rem;
+    border-radius: 5px;
+    background: var(--pink);
+    color: var(--violet);
+    font-size: 150%;
 }
