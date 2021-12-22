@@ -1,5 +1,5 @@
 /* General Settings, Colors and Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@300;400&family=Staatliches&display=swap');
 
 :root {
     --violet: #3E2D41;
@@ -75,7 +75,6 @@ header {
     height: 100%;
     width: 100%;
     background: url(../images/hero-3-1.png) no-repeat center top;
-    /* position: relative; */
 }
 
 .color-overlay {
@@ -83,26 +82,30 @@ header {
     width: 100%;
     background: var(--pink);
     opacity: 0.7;
-    /* position: absolute; */
 }
 
 .hero-text {
     width: 70%;
     position: absolute;
-    top: 50px;
+    top: 90px;
     text-align: center;
     font-size: 120%;
     letter-spacing: 2.5px;;
     padding: 30px 20px 30px 20px;
     background: rgb(62, 45, 65, .8);
     color: var(--rose);
-    border: 3px solid var(--violet);
-    border-radius: 25px;;
+    border-radius: 25px;
 }
 
 .hero-text h1 {
     padding-bottom: 20px;
+    font-size: 130%;
+}
+
+.uppercase {
     text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
 }
 
 .hero-text p {
@@ -327,5 +330,5 @@ textarea {
     border-radius: 5px;
     background: var(--pink);
     color: var(--violet);
-    font-size: 150%;
+    font-size: 150%; /* Why can I not center it with margin: 0 auto ? */
 }
