@@ -146,7 +146,7 @@ header {
     letter-spacing: 3px;
     font-size: 250%;
     font-weight: 400;;
-    padding: 40px 0 10px;
+    padding: 60px 0 10px;
 }
 
 .features-container {
@@ -233,7 +233,7 @@ header {
     letter-spacing: 3px;
     font-size: 250%;
     font-weight: 400;;
-    padding: 40px 0 40px;
+    padding: 60px 0 40px;
 }
 
 .team-container {
@@ -252,8 +252,8 @@ header {
 }
 
 .team-member img {
-    width: 60%;
-    border-radius: 10%;
+    width: 70%;
+    border-radius: 50%;
     margin: 0 auto 10px;
 }
 
@@ -326,9 +326,9 @@ textarea {
 .submit-input {
     width: 40%;
     height: 2.5rem;
-    border: 1px solid var(--rose);
     border-radius: 5px;
     background: var(--pink);
     color: var(--violet);
-    font-size: 150%; /* Why can I not center it with margin: 0 auto ? */
+    font-size: 130%; /* Why can I not center it with margin: 0 auto ? */
+    font-weight: 700;
 }
