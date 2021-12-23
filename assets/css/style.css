@@ -267,7 +267,7 @@ header {
 /* Form */
 
 #form {
-    height: 750px;
+    height: 800px;
     background: var(--violet);
     
 }
@@ -314,7 +314,7 @@ legend {
 textarea:focus {
     outline: none;
     border: 1px solid var(--pink);
-    box-shadow: 0 0 5px var(--pink);
+    box-shadow: 0 0 5px var(--pink); /* With the help of https://stackoverflow.com/questions/16156594/how-to-change-border-color-of-textarea-on-focus */
 }
 
 fieldset {
@@ -328,7 +328,7 @@ fieldset {
 textarea {
     background: transparent;
     width: 99%;
-    margin: 5px 0 20px 0;
+    margin: 5px 0 18px 0;
     border: 1px solid var(--rose);
     border-radius: 5px;
     color: var(--rose);
@@ -345,7 +345,7 @@ textarea {
     font-size: 130%; /* Why can I not center it with margin: 0 auto ? */
     font-weight: 700;
     box-shadow: 2px 2px 1px var(--rose);
-    -webkit-appearance: none; 
+    -webkit-appearance: none; /* With the help of https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone */
 }
 
 /* Footer */
