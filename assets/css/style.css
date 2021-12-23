@@ -345,6 +345,7 @@ textarea {
     font-size: 130%; /* Why can I not center it with margin: 0 auto ? */
     font-weight: 700;
     box-shadow: 2px 2px 1px var(--rose);
+    -webkit-appearance: none; 
 }
 
 /* Footer */
