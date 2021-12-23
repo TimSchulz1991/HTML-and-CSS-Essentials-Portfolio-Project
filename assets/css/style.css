@@ -267,7 +267,7 @@ header {
 /* Form */
 
 #form {
-    height: 700px;
+    height: 750px;
     background: var(--violet);
     
 }
@@ -305,6 +305,16 @@ legend {
     margin: 5px 0 20px 0;
     border: 1px solid var(--rose);
     border-radius: 5px;
+    color: var(--rose);
+    font-size: 110%;
+    padding-left: 5px;
+}
+
+.text-input:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid var(--pink);
+    box-shadow: 0 0 5px var(--pink);
 }
 
 fieldset {
@@ -321,6 +331,9 @@ textarea {
     margin: 5px 0 20px 0;
     border: 1px solid var(--rose);
     border-radius: 5px;
+    color: var(--rose);
+    padding: 5px 0 0 5px;
+    font-size: 120%;
 }
 
 .submit-input {
@@ -331,6 +344,7 @@ textarea {
     color: var(--violet);
     font-size: 130%; /* Why can I not center it with margin: 0 auto ? */
     font-weight: 700;
+    box-shadow: 2px 2px 1px var(--rose);
 }
 
 /* Footer */
@@ -355,6 +369,7 @@ footer button {
     color: var(--rose);
     border-radius: 5px;
     font-size: 100%;
+    box-shadow: 2px 2px 1px var(--rose);
 }
 
 .social-links i {
