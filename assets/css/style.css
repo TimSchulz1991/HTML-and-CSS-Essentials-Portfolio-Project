@@ -332,3 +332,33 @@ textarea {
     font-size: 130%; /* Why can I not center it with margin: 0 auto ? */
     font-weight: 700;
 }
+
+/* Footer */
+
+footer {
+    height: 150px;
+    width: 100%;
+    background: var(--pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-child {
+    margin-top: 15px;
+}
+
+footer button {
+    width: 150px;
+    height: 2rem;
+    background: var(--violet);
+    color: var(--rose);
+    border-radius: 5px;
+    font-size: 100%;
+}
+
+.social-links i {
+    color: var(--violet);
+    font-size: 150%;
+    padding: 10px;
+}
