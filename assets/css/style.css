@@ -465,3 +465,9 @@ footer button {
     font-size: 150%;
     padding: 10px;
 }
+
+@media screen and (min-width: 481px) {
+    footer {
+        height: 200px;
+    }
+}
