@@ -423,6 +423,18 @@ textarea {
     -webkit-appearance: none; /* With the help of https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone */
 }
 
+@media screen and (min-width: 481px) {
+    
+    #form {
+        height: 1000px;
+    }
+    
+    #form h2 {
+        width: 40%;
+        line-height: 3.5rem;
+    }
+}
+
 /* Footer */
 
 footer {
