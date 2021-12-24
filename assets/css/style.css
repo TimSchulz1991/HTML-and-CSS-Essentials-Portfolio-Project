@@ -18,6 +18,12 @@ body {
     color: var(--violet);
 }
 
+@media screen and (min-width: 481px) {
+    body {
+        font-size: 150%;
+    }
+}
+
 h1, 
 h2,
 h3 {
@@ -31,7 +37,7 @@ header {
     height: 220px;
 }
 
-.logo {
+.header-container {
     text-align: center;
     padding-top: 1.5rem;
 }
@@ -58,6 +64,21 @@ header {
 .nav-link {
     text-decoration: none;
     color: var(--pink);
+}
+
+@media screen and (min-width: 481px) {
+    
+    header {
+        height: 280px;
+    }
+    
+    .logo-image {
+        width: 50%;
+    }
+
+    .header-container {
+        padding-top: 2rem; 
+    }
 }
 
 /* Hero Section */
