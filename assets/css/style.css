@@ -234,6 +234,10 @@ header {
     .feature-item h3 {
         padding-bottom: 20px;
     }
+
+    /* .feature-item p:nth-child(3) {
+        padding-bottom: 40px;
+    }                                  Why does this not work */
 }
 
 /* Testimonial Section */
@@ -278,6 +282,12 @@ header {
     width: 75%;
     margin: 0 auto;
     font-size: 110%;
+}
+
+@media screen and (min-width: 481px) {
+    .testimonial-container {
+        height: 750px;
+    }
 }
 
 /* Team Section */
