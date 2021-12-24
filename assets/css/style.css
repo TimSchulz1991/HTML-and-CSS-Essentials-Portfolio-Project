@@ -181,8 +181,6 @@ header {
         width: 50%;
         top: 470px;
     }
-
-    
 }
 
 /* Feature Section */
@@ -226,6 +224,16 @@ header {
     width: 75%;
     margin: 0 auto;
     font-size: 110%;
+}
+
+@media screen and (min-width: 481px) {
+    .feature-item img {
+        width: 70%;
+    }
+
+    .feature-item h3 {
+        padding-bottom: 20px;
+    }
 }
 
 /* Testimonial Section */
