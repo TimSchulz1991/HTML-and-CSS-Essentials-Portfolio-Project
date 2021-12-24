@@ -151,8 +151,38 @@ header {
     justify-content: center;
 }
 
-.hero-buttons img {
+/* .hero-buttons img {
     width: 100%;
+} */
+
+.android {
+    width: 280px !important;
+}
+
+@media screen and (min-width: 481px) {
+
+    #hero {
+        height: 750px;
+    }
+
+    .hero-text {
+        width: 50%;
+    }
+
+    .hero-text h1 {
+        font-size: 140%;
+    }
+
+    .uppercase {
+        letter-spacing: 3.5px;
+    }
+
+    .hero-buttons {
+        width: 50%;
+        top: 470px;
+    }
+
+    
 }
 
 /* Feature Section */
