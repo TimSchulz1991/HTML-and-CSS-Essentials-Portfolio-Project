@@ -7,6 +7,10 @@
     --rose: #F4C7C5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -151,10 +155,6 @@ header {
     justify-content: center;
 }
 
-/* .hero-buttons img {
-    width: 100%;
-} */
-
 .android {
     width: 280px !important;
 }
@@ -233,11 +233,7 @@ header {
 
     .feature-item h3 {
         padding-bottom: 20px;
-    }
-
-    /* .feature-item p:nth-child(3) {
-        padding-bottom: 40px;
-    }                                  Why does this not work */
+    }                                
 }
 
 /* Testimonial Section */
@@ -413,11 +409,12 @@ textarea {
 
 .submit-input {
     width: 40%;
+    margin-left: 30%;
     height: 2.5rem;
     border-radius: 5px;
     background: var(--pink);
     color: var(--violet);
-    font-size: 130%; /* Why can I not center it with margin: 0 auto ? */
+    font-size: 130%;
     font-weight: 700;
     box-shadow: 2px 2px 1px var(--rose);
     -webkit-appearance: none; /* With the help of https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone */
@@ -450,7 +447,7 @@ footer {
     margin-top: 15px;
 }
 
-footer button {
+footer .top-button {
     width: 150px;
     height: 2rem;
     background: var(--violet);
@@ -458,6 +455,8 @@ footer button {
     border-radius: 5px;
     font-size: 100%;
     box-shadow: 2px 2px 1px var(--rose);
+    text-decoration: none;
+    text-align: center;
 }
 
 .social-links i {
