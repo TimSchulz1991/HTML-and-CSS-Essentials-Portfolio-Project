@@ -8,7 +8,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Thanks to my mentor Antonio */
 }
 
 * {
@@ -82,6 +82,33 @@ header {
 
     .header-container {
         padding-top: 2rem; 
+    }
+}
+
+@media screen and (min-width: 769px) {
+    header {
+        height: 120px;
+    }
+    
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        text-align: left;
+        align-items: center;
+    }
+
+    .logo-image {
+        width: 200px;
+        padding: 0;
+        margin: 0 0 20px 20px;
+    }
+
+    .nav-list {
+        font-size: 90%;
+        white-space: nowrap; 
+        align-items: flex-start;
+        margin-top: 0;
     }
 }
 
@@ -447,9 +474,8 @@ footer {
     margin-top: 15px;
 }
 
-footer .top-button {
-    width: 150px;
-    height: 2rem;
+.top-button {
+    padding: 5px;
     background: var(--violet);
     color: var(--rose);
     border-radius: 5px;
