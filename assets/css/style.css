@@ -252,7 +252,7 @@ header {
     letter-spacing: 3px;
     font-size: 250%;
     font-weight: 400;;
-    padding: 60px 0 10px;
+    padding: 60px 0 30px;
 }
 
 .features-container {
@@ -310,7 +310,7 @@ header {
     }
 
     .feature-item h3 {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
