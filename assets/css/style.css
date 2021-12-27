@@ -560,6 +560,31 @@ textarea {
     }
 }
 
+@media screen and (min-width: 769px) {
+
+    #form {
+        height: 900px;
+    }
+    
+    #form h2 {
+        font-size: 160%;
+    }
+
+    #form label,
+    #form legend {
+        font-size: 115%;
+    }
+
+    .block-label {
+        display: block;
+    }
+
+    .text-input,
+    textarea {
+        max-width: 700px;
+    }
+}
+
 /* Footer */
 
 footer {
@@ -590,6 +615,10 @@ footer {
     color: var(--violet);
     font-size: 150%;
     padding: 10px;
+}
+
+footer p {
+    font-size: 70%;
 }
 
 @media screen and (min-width: 481px) {

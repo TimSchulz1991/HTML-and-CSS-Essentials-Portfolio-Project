@@ -111,10 +111,10 @@
     <section id="form">
         <h2>Let us hear your thoughts <i class="fas fa-heart"></i></h2>
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <label for="fname">First Name</label>
+            <label for="fname" class="block-label">First Name</label>
             <input id="fname" name="first_name" type="text" class="text-input" required>
             <br>
-            <label for="email">Email Address</label>
+            <label for="email" class="block-label">Email Address</label>
             <input type="email" id="email" name="email_address" class="text-input" required>
             <br>
             <fieldset>
@@ -126,7 +126,7 @@
                   <label for="other" class="radio-label">other</label>
                   <input type="radio" id="other" name="gender" value="other" class="radio-input">
             </fieldset>
-            <label for="message">Your message to us</label>
+            <label for="message" class="block-label">Your message to us</label>
             <textarea name="message" id="message" cols="30" rows="10" required></textarea>
             <input type="submit" value="Send" class="submit-input">
         </form>
