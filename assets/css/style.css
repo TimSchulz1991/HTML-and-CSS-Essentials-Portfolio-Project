@@ -198,6 +198,7 @@ header {
 
     .hero-text h1 {
         font-size: 140%;
+        
     }
 
     .uppercase {
@@ -207,6 +208,35 @@ header {
     .hero-buttons {
         width: 50%;
         top: 470px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    #hero {
+        height: 670px;
+    }
+
+    .hero-text {
+        width: 500px;
+    }
+
+    .hero-text h1 {
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .uppercase {
+        letter-spacing: 5px;
+        font-size: 110%;
+    }
+
+    .hero-buttons {
+        width: 600px;
+    }
+
+    .android {
+        width: 300px !important;
     }
 }
 
