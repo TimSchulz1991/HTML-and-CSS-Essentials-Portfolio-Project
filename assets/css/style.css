@@ -293,6 +293,28 @@ header {
     }                                
 }
 
+@media screen and (min-width: 769px) {
+    
+    .features-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .feature-item {
+        width: 332px;
+    }
+
+    .feature-item h3 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .feature-item p {
+        font-size: 100%;
+    }
+}
+
 /* Testimonial Section */
 
 #testimonial {
