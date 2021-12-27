@@ -290,7 +290,11 @@ header {
 
     .feature-item h3 {
         padding-bottom: 20px;
-    }                                
+    } 
+    
+    .feature-item p {
+        font-size: 100%;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -362,6 +366,25 @@ header {
 @media screen and (min-width: 481px) {
     .testimonial-container {
         height: 750px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    
+    .testimonial-container {
+        height: 650px;
+    }
+    
+    .testimonial-container img {
+        width: 40%;
+    }
+
+    .fa-quote-right {
+        font-size: 400%;
+    }
+
+    .testimonial-container p {
+        font-size: 100%;
     }
 }
 
