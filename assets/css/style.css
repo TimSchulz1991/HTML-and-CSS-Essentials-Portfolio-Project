@@ -152,6 +152,7 @@ header {
     text-transform: uppercase;
     font-family: 'Staatliches', cursive;
     letter-spacing: 3px;
+    text-shadow: 2px 2px 1px var(--pink);
 }
 
 .hero-text p {
@@ -245,6 +246,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 3rem;
+    text-shadow: 2px 2px 1px var(--pink);
     font-weight: 400;;
     padding: 60px 0 30px;
 }
@@ -400,6 +402,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 3rem;
+    text-shadow: 2px 2px 1px var(--pink);
     font-weight: 400;;
     padding: 60px 0 40px;
 }
@@ -483,6 +486,7 @@ header {
 
 #form h2 {
     font-size: 2rem;
+    text-shadow: 2px 2px 1px var(--rose);
     letter-spacing: 3px;
     line-height: 2.5rem;
     width: 80%;
