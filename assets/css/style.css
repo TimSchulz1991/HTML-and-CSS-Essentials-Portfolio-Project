@@ -333,6 +333,12 @@ header {
     }
 }
 
+@media screen and (min-width: 1025px) {
+    .feature-item-image:hover {
+        transform: scale(1.6);
+    }
+}
+
 /* Testimonial Section */
 
 #testimonial {
