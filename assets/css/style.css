@@ -48,7 +48,7 @@ header {
 
 
 .logo-image {
-    width: 70%;
+    max-width: 230px;
 }
 
 .nav-list {
@@ -73,11 +73,7 @@ header {
 @media screen and (min-width: 481px) {
     
     header {
-        height: 280px;
-    }
-    
-    .logo-image {
-        width: 50%;
+        height: 200px;
     }
 
     .header-container {
@@ -193,11 +189,11 @@ header {
     }
 
     .hero-text {
-        width: 50%;
+        width: 350px;
     }
 
     .hero-text h1 {
-        font-size: 140%;
+        font-size: 120%;
         
     }
 
