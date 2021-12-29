@@ -64,6 +64,12 @@ header {
     color: var(--pink);
 }
 
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--rose);
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 481px) {
     
     header {
