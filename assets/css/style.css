@@ -471,6 +471,10 @@ header {
     filter: grayscale(100%);
 }
 
+.team-member-image:hover {
+    filter: none;
+}
+
 #team hr {
     border-top: 2px solid var(--pink);
     width: 50%;
