@@ -476,17 +476,16 @@ header {
 /* Form */
 
 #form {
-    height: 800px;
+    height: 750px;
     background: var(--violet);
     
 }
 
 #form h2 {
-    font-size: 200%;
+    font-size: 2rem;
     letter-spacing: 3px;
     line-height: 2.5rem;
-    width: 60%;
-    text-align: center;
+    width: 80%;
     margin: 0 auto;
     padding: 30px 0;
     color: var(--pink);
@@ -500,7 +499,7 @@ header {
 label,
 legend {
     color: var(--pink);
-    font-size: 135%;
+    font-size: 1.2rem;
 }
 
 .radio-label {
@@ -509,13 +508,13 @@ legend {
 
 .text-input {
     background: transparent;
-    width: 99%;
+    width: 80%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid var(--rose);
     border-radius: 5px;
     color: var(--rose);
-    font-size: 110%;
+    font-size: 1.1rem;
     padding-left: 5px;
 }
 
@@ -536,64 +535,69 @@ fieldset {
 
 textarea {
     background: transparent;
-    width: 99%;
+    width: 80%;
     margin: 5px 0 18px 0;
     border: 1px solid var(--rose);
     border-radius: 5px;
     color: var(--rose);
     padding: 5px 0 0 5px;
-    font-size: 120%;
+    font-size: 1.2rem;
 }
 
 .submit-input {
     width: 40%;
-    margin-left: 30%;
     height: 2.5rem;
     border-radius: 5px;
     background: var(--pink);
     color: var(--violet);
-    font-size: 130%;
+    font-size: 1.5rem;
     font-weight: 700;
     box-shadow: 2px 2px 1px var(--rose);
     -webkit-appearance: none; /* With the help of https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone */
 }
 
 @media screen and (min-width: 481px) {
-    
-    #form {
-        height: 1000px;
-    }
-    
-    #form h2 {
-        width: 40%;
-        line-height: 3.5rem;
+    .block-label {
+        display: block;
     }
 }
 
 @media screen and (min-width: 769px) {
 
     #form {
-        height: 900px;
+        height: 730px;
+    }
+
+    #form h2 {
+        text-align: center;
     }
     
     #form h2 {
-        font-size: 160%;
-    }
-
-    #form label,
-    #form legend {
-        font-size: 115%;
-    }
-
-    .block-label {
-        display: block;
+        padding: 40px 0;
     }
 
     .text-input,
     textarea {
-        max-width: 700px;
+        margin-left: 10%;
+    }
+
+    label,
+    legend {
+        text-align: center;
+    }
+
+    .large-screen-fieldset {
+        text-align: center;
+    }
+
+    .submit-input {
+        margin-left: 30%;
     }
 }
+
+/* @media screen and (min-width: 1025px) {
+    
+} */
 
 /* Footer */
 
