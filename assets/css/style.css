@@ -304,10 +304,6 @@ header {
     width: 80%;
 }
 
-.feature-item-image:hover {
-    transform: scale(1.1);
-}
-
 .feature-item p {
     width: 75%;
     margin: 0 auto;
@@ -349,6 +345,10 @@ header {
 
     .feature-item p {
         font-size: 1.2rem;
+    }
+
+    .feature-item-image:hover {
+        transform: scale(1.1);
     }
 }
 
@@ -471,10 +471,6 @@ header {
     filter: grayscale(100%);
 }
 
-.team-member-image:hover {
-    filter: none;
-}
-
 #team hr {
     border-top: 2px solid var(--pink);
     width: 50%;
@@ -505,6 +501,10 @@ header {
 
     .team-member-image {
         width: 250px;
+    }
+
+    .team-member-image:hover {
+        filter: none;
     }
 }
 
@@ -652,10 +652,6 @@ textarea {
     }
 }
 
-/* @media screen and (min-width: 1025px) {
-    
-} */
-
 /* Footer */
 
 footer {
@@ -696,9 +692,3 @@ footer {
 footer p {
     font-size: .7rem;
 }
-
-/* @media screen and (min-width: 481px) {
-    footer {
-        height: 200px;
-    }
-} */
