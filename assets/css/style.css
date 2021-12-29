@@ -38,7 +38,7 @@ h3 {
 
 header {
     background-color: var(--violet);
-    height: 220px;
+    height: 200px;
 }
 
 .header-container {
@@ -56,7 +56,7 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    font-size: 110%;
+    font-size: 1.2rem;
     letter-spacing: 2.5px;;
 }
 
@@ -133,11 +133,11 @@ header {
 }
 
 .hero-text {
-    width: 70%;
+    width: 280px;
     position: absolute;
     top: 90px;
     text-align: center;
-    font-size: 120%;
+    font-size: 1.4rem;
     letter-spacing: 2.5px;;
     padding: 30px 20px 30px 20px;
     background: rgb(62, 45, 65, .8);
@@ -147,7 +147,7 @@ header {
 
 .hero-text h1 {
     padding-bottom: 20px;
-    font-size: 130%;
+    font-size: 1.7rem;
 }
 
 .uppercase {
@@ -193,7 +193,7 @@ header {
     }
 
     .hero-text h1 {
-        font-size: 120%;
+        font-size: 2.2rem;
         
     }
 
@@ -224,7 +224,7 @@ header {
 
     .uppercase {
         letter-spacing: 5px;
-        font-size: 110%;
+        font-size: 2.7rem;
     }
 
     .hero-buttons {
@@ -246,7 +246,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 250%;
+    font-size: 3rem;
     font-weight: 400;;
     padding: 60px 0 30px;
 }
@@ -265,31 +265,35 @@ header {
 }
 
 .feature-item h3 {
-    font-size: 150%;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.5rem;
     text-decoration: underline;
 }
 
 .feature-item img {
-    width: 100%;
+    width: 80%;
 }
 
 .feature-item p {
     width: 75%;
     margin: 0 auto;
-    font-size: 110%;
+    font-size: 1.1rem;
 }
 
 @media screen and (min-width: 481px) {
     .feature-item img {
         width: 70%;
+        max-width: 346px;
     }
 
     .feature-item h3 {
         padding-bottom: 20px;
+        font-size: 1.8rem;
     } 
     
     .feature-item p {
-        font-size: 100%;
+        font-size: 1.2rem;
     }
 }
 
@@ -311,7 +315,7 @@ header {
     }
 
     .feature-item p {
-        font-size: 100%;
+        font-size: 1.2rem;
     }
 }
 
