@@ -183,6 +183,10 @@ header {
     justify-content: center;
 }
 
+.hero-button-item:hover {
+    transform: scale(1.1);
+}
+
 .android {
     width: 280px !important;
 }
@@ -277,8 +281,12 @@ header {
     text-decoration: underline;
 }
 
-.feature-item img {
+.feature-item-image {
     width: 80%;
+}
+
+.feature-item-image:hover {
+    transform: scale(1.1);
 }
 
 .feature-item p {
@@ -428,10 +436,14 @@ header {
     font-size: 1.6rem;
 }
 
-.team-member img {
+.team-member-image {
     width: 240px;
     border-radius: 50%;
     margin: 0 auto 10px;
+}
+
+.team-member-image:hover {
+    transform: scale(1.5);
 }
 
 #team hr {
@@ -566,6 +578,11 @@ textarea {
     -webkit-appearance: none; /* With the help of https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone */
 }
 
+.submit-input:hover {
+    transform: scale(1.1);
+    color: var(--rose);
+}
+
 @media screen and (min-width: 481px) {
     .block-label {
         display: block;
@@ -633,6 +650,11 @@ footer {
     box-shadow: 2px 2px 1px var(--rose);
     text-decoration: none;
     text-align: center;
+}
+
+.top-button:hover {
+    transform: scale(1.1);
+    color: var(--pink);
 }
 
 .social-links i {
