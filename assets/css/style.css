@@ -151,13 +151,14 @@ header {
 
 .hero-text h1 {
     padding-bottom: 20px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 .uppercase {
     text-transform: uppercase;
+    font-size: 1.7rem;
     font-family: 'Staatliches', cursive;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-shadow: 2px 2px 1px var(--pink);
 }
 
