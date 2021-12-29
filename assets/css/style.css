@@ -399,7 +399,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 250%;
+    font-size: 3rem;
     font-weight: 400;;
     padding: 60px 0 40px;
 }
@@ -416,11 +416,11 @@ header {
 
 .team-member h3 {
     padding-bottom: 20px;
-    font-size: 150%;
+    font-size: 1.6rem;
 }
 
 .team-member img {
-    width: 70%;
+    width: 240px;
     border-radius: 50%;
     margin: 0 auto 10px;
 }
@@ -430,12 +430,6 @@ header {
     width: 50%;
     margin: 0 auto;
     padding-bottom: 20px;
-}
-
-@media screen and (min-width: 481px) {
-    .team-member img {
-        width: 50%;
-    }
 }
 
 @media screen and (min-width: 769px) {
@@ -460,7 +454,22 @@ header {
     }
 
     .team-member img {
-        width: 70%;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .team-member {
+        width: 25%;
+    }
+
+    .team-member img {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    .border-bottom {
+        border-bottom: none;
     }
 }
 
