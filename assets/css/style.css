@@ -602,7 +602,7 @@ textarea {
 /* Footer */
 
 footer {
-    height: 150px;
+    height: 120px;
     width: 100%;
     background: var(--pink);
     display: flex;
@@ -619,7 +619,7 @@ footer {
     background: var(--violet);
     color: var(--rose);
     border-radius: 5px;
-    font-size: 100%;
+    font-size: 1rem;
     box-shadow: 2px 2px 1px var(--rose);
     text-decoration: none;
     text-align: center;
@@ -627,16 +627,16 @@ footer {
 
 .social-links i {
     color: var(--violet);
-    font-size: 150%;
+    font-size: 1.5rem;
     padding: 10px;
 }
 
 footer p {
-    font-size: 70%;
+    font-size: .7rem;
 }
 
-@media screen and (min-width: 481px) {
+/* @media screen and (min-width: 481px) {
     footer {
         height: 200px;
     }
-}
+} */
