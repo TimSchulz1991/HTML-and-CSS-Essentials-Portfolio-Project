@@ -115,7 +115,7 @@ header {
 /* Hero Section */
 
 #hero {
-    height: 650px;
+    height: 750px;
     width: 100%;
     position: relative;
     display: flex;
@@ -139,7 +139,7 @@ header {
 .hero-text {
     width: 280px;
     position: absolute;
-    top: 90px;
+    top: 150px;
     text-align: center;
     font-size: 1.4rem;
     letter-spacing: 2.5px;;
@@ -177,7 +177,7 @@ header {
     width: 70%;
     margin: 0 auto;
     position: absolute;
-    top: 400px;
+    top: 480px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -195,7 +195,7 @@ header {
 @media screen and (min-width: 481px) {
 
     #hero {
-        height: 700px;
+        height: 780px;
     }
 
     .hero-text {
@@ -214,15 +214,11 @@ header {
 
     .hero-buttons {
         width: 50%;
-        top: 420px;
+        top: 500px;
     }
 }
 
 @media screen and (min-width: 769px) {
-    
-    #hero {
-        height: 660px;
-    }
 
     .hero-text {
         width: 430px;
@@ -238,18 +234,15 @@ header {
     }
     
     .hero-buttons {
-        top: 390px;
+        top: 500px;
     }
 }
 
 @media screen and (min-width: 1025px) {
 
-    #hero {
-        height: 650px;
-    }
-
     .hero-text {
         width: 500px;
+        top: 180px;
     }
 
     .hero-text h1 {
