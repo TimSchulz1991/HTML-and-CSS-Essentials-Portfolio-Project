@@ -431,6 +431,12 @@ header {
     }
 }
 
+@media screen and (min-width: 1025px) {
+    .testimonial-container p {
+        max-width: 600px;
+    }
+}
+
 /* Team Section */
 
 #team {
