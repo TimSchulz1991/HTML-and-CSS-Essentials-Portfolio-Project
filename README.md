@@ -133,8 +133,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 - Friends and family members (with design and programming backgrounds) were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Accessibility 
-![This image shows the website's results from the Lighthouse tool in the Chrome Developer section](/documentation/testing/accessibility.png)
+![This image shows the website's results from the Lighthouse tool in the Chrome Developer section](/documentation/testing/lighthouse.png)
 - The accessibility score which was calculated with the Lighthouse tool within the Chrome Developer tools shows that the website is highly accessible for screen readers.
+- The performance score can vary heavily, depending on which computer was used for testing (I tested on several devices and this was the best score I got).
 
 ### Known bugs
 - On an iPhone X and upwards, when turning the phone into landscape mode, there are white edges on the left and right side of the page.
