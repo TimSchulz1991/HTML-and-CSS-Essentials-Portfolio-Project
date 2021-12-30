@@ -40,7 +40,6 @@ header {
     padding-top: 1.5rem;
 }
 
-
 .logo-image {
     max-width: 230px;
 }
@@ -56,7 +55,7 @@ header {
 
 .nav-item {
     margin: 0 .5rem;
-    padding: 0.5rem;
+    padding: .5rem;
 }
 
 .nav-link {
@@ -143,7 +142,7 @@ header {
     text-align: center;
     font-size: 1.4rem;
     letter-spacing: 2.5px;;
-    padding: 30px 20px 30px 20px;
+    padding: 30px 20px;
     background: rgb(62, 45, 65, .8);
     color: var(--rose);
     border-radius: 25px;
