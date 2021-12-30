@@ -3,7 +3,7 @@
 Preglife Connect is a mobile application for parents and expecting parents in which users can find friends, who are in similar stages of their parenthood or pregnancy. 
 
 The purpose of this website is to inform potential users about the application and present its features, to make it easy for them to download the app, to learn more about the team behind the project, and to be able to contact the developers with any kind of questions or feedback. The page has been designed responsively for all screen sizes and the individual sections follow each other in a structured manner, so that anyone visiting gets an immediate overview of what Preglife Connect is about.  
-<br/>
+
 
 ![This image provides an overview of the first section of the page on all screen sizes](/documentation/testing/am-i-responsive.png)
 
@@ -14,12 +14,12 @@ The purpose of this website is to inform potential users about the application a
         - As a first time visitor, I want to be able to immediately download the app if I am interested.
         - As a first time visitor, I want to see what users users have to say about the app and how it has helped them.
         - As a first time visitor, I want to learn more about the team behind the project.
-        <br/>
+        
 
     2. #### Returning Visitor Goals
         - As a returning visitor, I want to be able to give my feedback or ask questions about the app to the developers.
         - As a returning visitor, I want to find the app's social media links.
-        <br/>
+        
 
 - ### Design
     - #### Color Scheme
